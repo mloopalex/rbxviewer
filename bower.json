@@ -1,0 +1,17 @@
+{
+  "name": "redboxcreate",
+  "version": "0.0.1b",
+  "authors": [
+    "mloop"
+  ],
+  "description": "Помощь в верстке проекта",
+  "main": "",
+  "ignore": [
+    ".gitignore",
+    "bower.json"
+  ],
+  "homepage": "https://github.com/mloopalex/redboxcreate.git",
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}

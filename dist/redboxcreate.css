@@ -1,0 +1,91 @@
+/*для верстки*/
+
+.b-post {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.b-ntf {
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    padding: 15px;
+
+}
+
+.b-post, .b-ntf {
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    /*-webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -o-transform: scale(0.1);*/
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    margin: 0 auto;
+}
+
+.b-form .b-post, .b-form .b-ntf {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+._v_menu {
+    position: fixed;
+    bottom: 30px;
+    left: 10px;
+    border: 1px solid #0e3f82;
+    padding: 10px;
+    z-index: 1000;
+    opacity: 0.2;
+}
+
+._v_menu:hover {
+    opacity: 1;
+}
+
+._v_hide-show_bg {
+    width: 20px;
+    height: 20px;
+    background: #3a4150;
+    cursor: pointer;
+}
+
+._v_top_bg_show_btn {
+    margin-top: 30px;
+    width: 20px;
+    height: 20px;
+    background: #3a4150 !important;
+    cursor: pointer;
+}
+
+._v_top_bg_show {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0.8;
+}
+
+._v_top_bg_show_btn_div {
+    margin-top: 30px;
+    width: 20px;
+    height: 20px;
+    background: #3a4150;
+    cursor: pointer;
+}
+
+._v_hide-show_bg_show {
+    background: #01b10e !important;
+}
+
+._v_hide-show_bg_show_bg {
+    background-color: rgba(255, 255, 255, 0.5);
+}
