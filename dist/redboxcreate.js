@@ -1,3 +1,4 @@
+//beta
 (function () {
     $.fn.redboxcreate = function () {
         let f_verstka = this;
